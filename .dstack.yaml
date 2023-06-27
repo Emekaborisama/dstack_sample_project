@@ -1,0 +1,8 @@
+type: task
+build:
+  - pip install -r requirements.txt
+ports:
+  - 3000
+commands:
+  - python chat.py
+
